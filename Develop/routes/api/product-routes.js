@@ -32,7 +32,7 @@ router.get('/:id', (req, res) => {
       Category,
       {
         model: Tag,
-        through: ProductTag,
+        through: ProductTag
       },
     ],
   })
